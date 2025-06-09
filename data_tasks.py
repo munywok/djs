@@ -21,7 +21,7 @@ print(df)
 print("\nSummary Statistics:")
 print(df.describe())
 
-# 3. API call (commented out due to no internet in some environments)
+
 # import requests
 # response = requests.get("https://api.agify.io/?name=michael")
 # print("\nPredicted age for 'Michael':", response.json().get('age', 'No age found'))
